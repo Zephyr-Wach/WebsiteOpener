@@ -1,0 +1,12 @@
+{
+  "ID": "a3f5d69c8e4b4e23b5e9a223c5b8f0a7",
+  "ActionKeyword": "gw",
+  "Name": "Website Opener",
+  "Description": "Quickly open websites",
+  "Author": "zephyr",
+  "Version": "1.0",
+  "Language": "python",
+  "Website": "https://github.com/your/repo",
+  "ExecuteFileName": "main.py",
+  "IcoPath": "Images\\web.png"
+}
