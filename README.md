@@ -1,8 +1,8 @@
 # Website Opener
 
 🌐 Supporting multiple languages:
-- [English](./README.en.md)
-- [中文说明](./README.zh.md)
+- [English](./README.md)
+- [中文说明](./README_zh.md)
 
 ## Overview
 
