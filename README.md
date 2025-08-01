@@ -22,7 +22,7 @@ Website Opener is a Flow Launcher plugin that enables users to quickly open, man
    - Flow Launcher v1.20.2 or later.
    - Python 3.8 (e.g., `D:\env\python3.8\pythonw.exe`).
    - Dependencies listed in `requirements.txt`.
-2. **Install Dependencies**:
+2. **Install in Flow Launcher**:
    ```bash
    pm install https://github.com/Zephyr-Wach/WebsiteOpener/releases/download/v1.0.0/WebsiteOpener.zip
    ```
