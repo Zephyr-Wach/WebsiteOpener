@@ -24,11 +24,9 @@ Website Opener 是一个 Flow Launcher 插件，允许用户快速打开、管�
    - `requirements.txt` 中列出的依赖。
 2. **安装依赖**：
    ```bash
-   D:\env\python3.8\python.exe -m pip install -r requirements.txt
+   pm install https://github.com/Zephyr-Wach/WebsiteOpener/releases/download/v1.0.0/WebsiteOpener.zip
    ```
 3. **安装插件**：
-   - 将插件文件夹复制到 `C:\Users\<你的用户名>\AppData\Roaming\FlowLauncher\Plugins\`。
-   - 确保包含 `plugin.json`、`main.py`、`dictionary/zh.json`、`dictionary/en.json`、`Images/app.png` 和 `requirements.txt`。
    - 重启Flow Launcher
 4. **验证安装**：
    - 打开 Flow Launcher（`Alt + Space`），输入 `gw`，检查插件是否加载。

@@ -24,11 +24,9 @@ Website Opener is a Flow Launcher plugin that enables users to quickly open, man
    - Dependencies listed in `requirements.txt`.
 2. **Install Dependencies**:
    ```bash
-   pip install -r requirements.txt
+   pm install https://github.com/Zephyr-Wach/WebsiteOpener/releases/download/v1.0.0/WebsiteOpener.zip
    ```
 3. **Install Plugin**:
-   - Copy the plugin folder to `C:\Users\<YourUsername>\AppData\Roaming\FlowLauncher\Plugins\`.
-   - Ensure `plugin.json`, `main.py`, `dictionary/zh.json`, `dictionary/en.json`, `Images/app.png`, and `requirements.txt` are included.
    - Restart Flow Launcher
 4. **Verify Setup**:
    - Open Flow Launcher (`Alt + Space`), type `gw`, and check if the plugin loads.

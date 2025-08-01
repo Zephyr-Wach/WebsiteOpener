@@ -4,7 +4,7 @@
   "Name": "Website Opener",
   "Description": "Quickly open websites",
   "Author": "zephyr",
-  "Version": "1.0",
+  "Version": "1.0.0",
   "Language": "python",
   "Website": "https://github.com/Zephyr-Wach/WebsiteOpener",
   "ExecuteFileName": "main.py",
