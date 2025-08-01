@@ -1,6 +1,12 @@
+import sys
+from pathlib import Path
+
+plugindir = Path.absolute(Path(__file__).parent)
+paths = (".", "lib", "plugin")
+sys.path = [str(plugindir / p) for p in paths] + sys.path
+
 from pyflowlauncher import Plugin, Result, send_results
 from pyflowlauncher.result import ResultResponse
-from pathlib import Path
 import json
 import subprocess
 import webbrowser
@@ -54,8 +60,15 @@ def is_valid_url(url: str) -> bool:
 def load_sites() -> Dict[str, str]:
     """加载 sites.json"""
     if not SITE_FILE.exists():
-        logging.info("sites.json does not exist, returning empty dict")
-        return {}
+        logging.info("sites.json does not exist, creating default file")
+        try:
+            default_data = {"language": "zh"}
+            with open(SITE_FILE, "w", encoding="utf-8") as f:
+                json.dump(default_data, f, ensure_ascii=False, indent=2)
+            return default_data
+        except Exception as e:
+            logging.error(f"Error creating default sites.json: {str(e)}")
+            return {}
     try:
         with open(SITE_FILE, "r", encoding="utf-8-sig") as f:
             data = json.load(f)
