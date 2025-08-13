@@ -24,7 +24,7 @@ Website Opener is a Flow Launcher plugin that enables users to quickly open, man
    - Dependencies listed in `requirements.txt`.
 2. **Install in Flow Launcher**:
    ```bash
-   pm install https://github.com/Zephyr-Wach/WebsiteOpener/releases/download/v1.0.0/WebsiteOpener.zip
+   pm install WebsiteOpener by zephyr
    ```
 3. **Install Plugin**:
    - Restart Flow Launcher
