@@ -21,7 +21,6 @@ Website Opener 是一个 Flow Launcher 插件，允许用户快速打开、管�
 1. **前置条件**：
    - Flow Launcher v1.20.2 或更高版本。
    - Python 3.8（例如 `D:\env\python3.8\pythonw.exe`）。
-   - `requirements.txt` 中列出的依赖。
 2. **Install in Flow Launcher中安装**：
    ```bash
    pm install WebsiteOpener by zephyr
